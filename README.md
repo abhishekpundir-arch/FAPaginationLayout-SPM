@@ -8,9 +8,12 @@
 A custom `UICollectionViewFlowLayout` that adds card-style pagination to a horizontal collection view, packaged for **Swift Package Manager**.
 Each swipe snaps to the next cell, and the neighbouring cells peek in from the sides so users can see there is more content.
 
-<p align="center">
-    <img src="http://i.imgur.com/whAKx2Q.gif" height="450">
-</p>
+## What's different in this package
+
+- Installable with Swift Package Manager (`Package.swift`)
+- Library source moved to `Sources/FAPaginationLayout`
+- Minimum iOS raised to 13 and Swift tools 5.5
+- Usage examples updated for modern Swift (`UIEdgeInsets`, `.fast` deceleration)
 
 ## Features
 
@@ -165,4 +168,6 @@ Open `FAPaginationLayout.xcodeproj` to run the demo app. It shows all three styl
 
 Available under the MIT license. See [LICENSE](LICENSE) for details.
 
-Based on [FAPaginationLayout](https://github.com/fahidattique55/FAPaginationLayout) by Fahid Attique, with contributions from Evyasafmordechai and orlandoamorim.
+## Credits
+
+This package is based on [FAPaginationLayout](https://github.com/fahidattique55/FAPaginationLayout) by Fahid Attique (MIT license), with contributions from Evyasafmordechai and orlandoamorim. The original copyright notice is kept in [LICENSE](LICENSE).
